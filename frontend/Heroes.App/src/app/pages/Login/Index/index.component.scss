@@ -1,0 +1,33 @@
+#page {
+    // background-color: red;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+    .container {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        
+        *{
+            width: 100%;
+        }
+
+        header{
+            margin-bottom: 10px;
+
+            h1{
+                display: flex;
+                justify-content: center;
+            }
+        }
+
+        section, div{
+            margin: 10px 0;
+        }
+
+    }
+}
