@@ -8,9 +8,4 @@
     <PackageReference Include="AutoMapper" Version="11.0.1" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Heroes.Domain.Dto\Heroes.Domain.Dto.csproj" />
-    <ProjectReference Include="..\Heroes.Domain\Heroes.Domain.csproj" />
-  </ItemGroup>
-
 </Project>
